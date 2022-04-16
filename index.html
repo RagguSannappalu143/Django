@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel='stylesheet' type='text/css' href="{% static 'home/css/bootstrap.min.css' %}" />
+
+</head>
+<body>
+<img src="{% static 'images/balaji.jpg' %}" alt="NO_IMAGE" height="250px" width="300px" />
+<div class="card" style="width: 18rem;">
+  <img src="{% static 'images/taj.jpg' %}" class="card-img-top" alt=" No Image Available">
+  <div class="card-body">
+    <h3 class="card-title btn btn-success"> TAJ-MAHAL</h3>
+    <p class="card-text">An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan in memory of his favourite wife, the Taj Mahal is the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage..</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
+
+<h3> Hello World!!!</h3>
+<h4> Today date and time is: {{today}}</h4>
+</body>
+</html>
